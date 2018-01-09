@@ -4,7 +4,7 @@ import { Button } from 'material-ui';
 export const MaterialUiButton = () => {
   return (
     <Button raised={true} color="primary">
-      Hello World
+      Hello Material UI
     </Button>
   );
 };
