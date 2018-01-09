@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { MaterialUiButton } from './material-ui/material-ui-button';
 
 class App extends Component {
   render() {
@@ -13,6 +14,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>Javascript with Material UI</h1>
+        <MaterialUiButton/>
       </div>
     );
   }
